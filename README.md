@@ -14,6 +14,7 @@ This repository contains my complete learning journey through the **InfraExpert 
 - [ ] Networking
 - [ ] Operating Systems
 - [ ] Virtualization
+- [ ] Databases
 - [ ] Cloud Computing
 - [ ] Infra Coding Theory
 - [ ] Infra Design Principles
