@@ -17,3 +17,38 @@ It acts like a common language for computers, allowing devices with different ha
 5. **Data Link**
    - A data link is a term used to describe the connection between two systems in order to share the information. A wired data link is a communication method that sends the information over wires or cables. The variations of this type connection are twisted pair cables, coaxial cables, fiber-optic cables and ethernet over copper.
 
+6. **What is Internet?**
+   - The internet is a global network of interconnected networks, comprised of clients, servers, routers, and other infrastructure, connected through various means such as cables, wireless connections, and satellite links, all communicating using standard protocols.
+
+7. **Client**
+   - A machine or process that requests data or service from a server. Example - Web browsers (Chrome, Firefox, Safari), Mobile App, Email clients (Outlook, Gmail app), etc. Note that a single machine or a piece of software can be both a client and server at the same time. For instance, a single machine could act as a server for end users and a client for a database.
+     
+8. **Server**
+   - A machine or process that provides data or service to a client, usually by listening for incoming network calls. Example - Web servers (Apache, Nginx) that host websites, Email servers (Exchange, Sendmail) that manage email, Database servers (MySQL, PostgreSQL) that store and manage data, etc. Note that a single machine or a piece of software can be both a client and server at the same time. For instance, a single machine could act as a server for end users and a client for a database.
+
+9. **Client Server Model**
+   - The paradigm by which modern systems are designed, which consists of clients requesting data or service from servers and servers providing data or service to clients.
+  
+10. **Internet Protocol**
+    - This network protocol outlines how almost all machine-to-machine should be happen to this world. This is the fundamental "language" and addressing system that allows devices to find and communicate with each other. Other protocols are like TCP, UDP and HTTP are built on top of IP.
+   
+11. **IP Address**
+    - An address given to each machine connected to the public internet. IPv4 addresses are consists of four numbers separated by dots: a.b.c.d where all four numbers are between 0 to 255. Special values include: a) 127.0.0.1 Localhost (your own machine) b) 192.168.x.y Private network (e.g., your home Wi-Fi network). IPv6 addresses are eight groups of four hexadecimal digits, separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+    - IP addresses are essential for identifying and locating devices on the internet. IPv4 is the older version with limited addresses, while IPv6 is the newer version designed to support many more devices.
+   
+12. **TCP**
+    - Network protocol built on top of the Internet Protocol(IP). Allows for ordered, reliable data delivery between machines over public internet by creating a connection. Establishes a connection before data transfer. TCP is usally implemented in the kernel, which exposes sockets to applications that they can use to stream the data through an open connection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
