@@ -39,6 +39,12 @@ It acts like a common language for computers, allowing devices with different ha
 12. **TCP**
     - Network protocol built on top of the Internet Protocol(IP). Allows for ordered, reliable data delivery between machines over public internet by creating a connection. Establishes a connection before data transfer. TCP is usally implemented in the kernel, which exposes sockets to applications that they can use to stream the data through an open connection.
 
+13. **Port**
+   - In order for multiple programs to listen for new network connections on the same machine without colliding, they pick a port to listen on. A port is an integer between 0 and 65,535(2^16 ports total).
+   - Typically, ports 0-1023 are reserved for system ports(also called well-known ports) and shouldn't be used by user-level processes. Certain ports have pre-defined uses, and although you usually won't be required to have them memorized, they can sometimes come in handy. Below are some examples:
+     
+     
+    
 
 
 
