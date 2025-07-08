@@ -132,3 +132,60 @@ It acts like a common language for computers, allowing devices with different ha
       - **Internet Layer (corresponds to OSI Layer 3)**: This layer is responsible for the routing and forwarding of data packets between devices across multiple networks. It defines the addressing scheme (IP addresses) and protocols used to transmit data over the Internet. Key protocols in this layer include the Internet Protocol (IP), Address Resolution Protocol (ARP), and Internet Control Message Protocol (ICMP).
       - **Transport Layer (corresponds to OSI Layer 4)**: This layer is responsible for providing reliable and efficient data transmission between devices, ensuring data integrity and error recovery. It manages end- to-end connections, flow control, and congestion control. Two primary protocols in this layer are the Transmission Control Protocol (TCP) and User Datagram Protocol (UDP).
       - **Application Layer (corresponds to OSI Layers 5, 6, and 7)**: This layer provides the interface between the user and the network, allowing applications to access network services. It is responsible for various high- level functions, including authentication, file transfer, email, and web browsing. Common protocols in this layer include HTTP, FTP, SMTP, and DNS.
+
+32. **Encapsulation**
+   - Encapsulation is the process of adding additional information when data is traveling in TCP/IP model. When data moves from upper layer to lower layer of TCP/IP protocol stack, during an outgoing transmission, each layer includes a bundle of relevant information called "header" along with the actual data.
+
+33. **Decapsulation**
+   - Decapsulation is the process of opening up encapsulated data that are usually sent in the form of packets over a communication network. It can be literally defined as the process of opening a capsule, which, in this case, refers to encapsulated or wrapped-up data.
+
+34. **Private IP**
+   - A private IP address is a range of non-internet facing IP addresses used in an internal network. Private IP addresses are provided by network devices, such as routers, using network address translation. If you want to find the IP of a device you're connected to, you can use the "netstat -an" command in the terminal.
+
+35. **Public IP**
+   - A public IP address is an IP address that your home or business router receives from your ISP and it's used when you access the internet. Public IP addresses are required for any publicly accessible network hardware such as a home router and the servers that host websites. You can find you public IP address by typing what is my IP on google.
+
+36. **Firewall**
+   - A firewall is a network security device that monitors incoming and outgoing network traffic and permits or blocks data packets based on a set of security rules. Its purpose is to establish a barrier between your internal network and incoming traffic from external sources (such as the internet) in order to block malicious traffic like viruses and hackers.
+
+37. **Three Way Handshake**
+   - TCP 3-way handshake, also known as a 3-way handshake, is a protocol for establishing a connection between a server and a client in a TCP/IP network. Before the real data communication process begins, both the client and server must exchange synchronization and acknowledgment packets.
+
+38. **IPV4**
+   - IPv4 or Internet Protocol version 4, address is a 32-bit string of numbers separated by periods. It uniquely identifies a network interface in a device.IPv4 is the first non-experimental Internet Protocol.
+
+39. **IPV6**
+   - IPv6 is the latest version of the Internet Protocol, which identifies devices across the internet so they can be located. Every device that uses the internet is identified through its own IP address in order for internet communication to work.
+
+40. **Dual Stacking**
+   - Dual stack means that devices are able to run IPv4 and IPv6 in parallel. It allows hosts to simultaneously reach IPv4 and IPv6 content, so it offers a very flexible coexistence strategy.
+
+41. **Tunneling**
+   - Tunnelling is a protocol for transferring data securely from one network to another. Using a method known as encapsulation, Tunnelling allows private network communications to be sent across a public network, such as the Internet. Encapsulation enables data packets to appear general to a public network when they are private data packets, allowing them to pass unnoticed.
+
+42. **Switches**
+   - A network switch forwards data packets between devices. Switches send packets directly to devices, rather than sending them to networks like a router does. Switches can be hardware devices that manage physical networks, as well as software-based virtual devices.
+
+43. **Bit**
+   - A bit (binary digit) is the smallest unit of data that a computer can process and store. A bit is always in one of two physical states, similar to an on/off light switch. The state is represented by a single binary value, usually a 0 or 1. However, the state might also be represented by yes/no, on/off or true/false. Bits are stored in memory through the use of capacitors that hold electrical charges. The charge determines the state of each bit, which, in turn, determines the bit's value.
+
+44. **Frames**
+   - A frame is a unit of data. A frame works to help identify data packets used in networking and telecommunications structures. Frames also help to determine how data receivers interpret a stream of data from a source.
+
+45. **Segment**
+   - A process is divided into Segments. The chunks that a program is divided into which are not necessarily all of the same sizes are called segments. Segmentation gives user's view of the process which paging does not give. Here the user's view is mapped to physical memory.
+
+46. **Ping**
+   - Ping (Packet Internet Groper) is a method for determining communication latency between two networks. Simply put, ping is a method of determining latency or the amount of time it takes for data to travel between two devices or across a network. As communication latency decreases, communication effectiveness improves.
+
+47. **Simple Mail Transfer Protocol**
+   - The Simple Mail Transfer Protocol (SMTP) is a technical standard for transmitting electronic mail (email) over a network. Like other networking protocols, SMTP allows computers and servers to exchange data regardless of their underlying hardware or software. Just as the use of a standardized form of addressing an envelope allows the postal service to operate, SMTP standardizes the way email travels from sender to recipient, making widespread email delivery possible.
+
+48. **File Transfer Protocol**
+   - FTP (File Transfer Protocol) is a network protocol for transmitting files between computers over Transmission Control Protocol/Internet Protocol (TCP/IP) connections. Within the TCP/IP suite, FTP is considered an application layer protocol. In an FTP transaction, the end user's computer is typically called the local host. The second computer involved in FTP is a remote host, which is usually a server. Both computers need to be connected via a network and configured properly to transfer files via FTP.
+
+49. **Address Resolution Protocol**
+   - Address Resolution Protocol (ARP) is a procedure for mapping a dynamic IP address to a permanent physical machine address in a local area network (LAN). The physical machine address is also known as a media access control (MAC) address. The job of ARP is essentially to translate 32-bit addresses to 48-bit addresses and vice versa. This is necessary because IP addresses in IP version 4 (IPv4) are 32 bits, but MAC addresses are 48 bits.
+
+50. **Internet Control Message Protocol**
+   - The Internet Control Message Protocol (ICMP) is a network layer protocol used by network devices to diagnose network communication issues. ICMP is mainly used to determine whether or not data is reaching its intended destination in a timely manner. Commonly, the ICMP protocol is used on network devices, such as routers. ICMP is crucial for error reporting and testing, but it can also be used in distributed denial-of- service (DDoS) attacks.
